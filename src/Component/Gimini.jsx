@@ -46,7 +46,7 @@ const Gimini = () => {
       <h1 className="text-4xl font-bold text-purple-400 mb-6 text-center">Gimini Assistant</h1>
       
       {answer && (
-        <div className="mt-6 bg-gray-800 p-6 rounded-lg shadow-lg max-w-2xl w-full">
+        <div className="mb-14 bg-gray-800 p-6 rounded-lg shadow-lg max-w-2xl w-full">
           <p className="text-purple-300 font-semibold">Answer:</p>
           <p className="text-gray-200 mt-1 whitespace-pre-wrap">{answer}</p>
         </div>
